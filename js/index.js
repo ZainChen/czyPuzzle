@@ -371,7 +371,7 @@ function MouseoutRN(e) {  //鼠标离开return0元素事件
 }
 //---单击事件
 function MousedownRN(e) { //鼠标按下return0触发事件
-  window.location.href = "../PuzzleMoShi/index.html";
+  // window.location.href = "../PuzzleMoShi/index.html";
   if(startnum != 1) {
     var pcyy = document.getElementById("music");  //播放语音
     pcyy.src = "./music/resetanxia.mp3";
